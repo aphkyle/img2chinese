@@ -19,4 +19,3 @@ for eee in np.array(img):
     ok += '\n'
 
 print(ok, file=open("test.txt", "w", encoding="utf8"))
-img.show()
